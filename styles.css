@@ -1,0 +1,47 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color:gray;
+  display:grid;
+}
+.menue-but{
+  background-color:lightskyblue;
+  width: 10%;
+  color: black;
+  line-height: 2;
+
+}
+.menue{
+  height:300px;
+  width:20%;
+  background-color:white
+
+}
+.menue ul {
+  padding:1px;
+  list-style-type: none;
+  margin: 0;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+input[type=text]{
+  margin-top: 10px;
+  border: 3px solid #ccc;
+  padding: 12px 20px;
+}
+.result{
+  height: 40px;
+  width: auto;
+padding: 12px 20px;
+}
+input[type=submit]{
+  margin-top:auto;
+  border: 3px solid #ccc;
+  padding: 12px 20px;
+
+}
